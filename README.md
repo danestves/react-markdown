@@ -1,3 +1,7 @@
+[![npm version](https://img.shields.io/npm/v/@danestves/react-markdown.svg?style=flat-square)](https://www.npmjs.com/package/@danestves/react-markdown)[![Build Status](https://img.shields.io/travis/danestves/react-markdown/master.svg?style=flat-square)](https://travis-ci.org/danestves/react-markdown)
+
+This is forked from [React component to parse and render Platzi Flavored Markdown content](https://github.com/PlatziDev/react-markdown)
+
 # react-markdown
 
 React component to parse and render Flavored Markdown content
