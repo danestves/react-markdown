@@ -1,5 +1,5 @@
 {
-  "name": "@dan_estves/react-markdown",
+  "name": "@danestves/react-markdown",
   "version": "1.0.5",
   "description": "React component to parse and render Flavored Markdown content",
   "main": "index.js",
