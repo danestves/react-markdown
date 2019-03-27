@@ -2,7 +2,7 @@ const React = require('react');
 const renderer = require('react-test-renderer');
 const Markdown = require('./index.js');
 
-const content = `![Platzi Logo](https://static.platzi.com/static/images/logos/platzi@2x.png)
+const content = `![dan_estves](https://www.danielestves.com/static/media/favicons/favicon-32x32.png)
 *[HTML]: Hyper Text Markup Language
 *[W3C]:  World Wide Web Consortium
 # Heading 1
@@ -25,6 +25,8 @@ function greeting() {
 
 test('Markdown component', () => {
   expect(
-    renderer.create(React.createElement(Markdown, { content, id: 'content' })).toJSON(),
+    renderer
+      .create(React.createElement(Markdown, { content, id: 'content' }))
+      .toJSON()
   ).toMatchSnapshot();
 });

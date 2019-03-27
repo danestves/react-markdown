@@ -1,7 +1,7 @@
 {
-  "name": "@platzi/react-markdown",
+  "name": "@dan_estves/react-markdown",
   "version": "1.0.4",
-  "description": "React component to parse and render Platzi Flavored Markdown content",
+  "description": "React component to parse and render Flavored Markdown content",
   "main": "index.js",
   "scripts": {
     "test": "jest",
@@ -11,40 +11,37 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PlatziDev/react-markdown.git"
+    "url": "git+https://github.com/danestves/react-markdown.git"
   },
   "keywords": [
     "react",
     "markdown",
-    "platzi"
+    "dan_estves"
   ],
   "author": {
-    "name": "Platzi Team",
-    "email": "cursos@platzi.com",
-    "url": "https://github.com/PlatziDev"
+    "name": "Daniel Esteves",
+    "email": "estevesd8@gmail.com",
+    "url": "https://github.com/danestves"
   },
   "contributors": [
     {
-      "name": "Sergio Daniel Xalambrí",
-      "email": "colo@platzi.com",
-      "url": "https://sergio.xalambri.xyz/"
+      "name": "Platzi Team",
+      "email": "cursos@platzi.com",
+      "url": "https://github.com/PlatziDev"
     }
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/PlatziDev/react-markdown/issues"
+    "url": "https://github.com/danestves/react-markdown/issues"
   },
-  "homepage": "https://github.com/PlatziDev/react-markdown#readme",
-  "dependencies": {
-    "@platzi/markdown": "1.2.0"
-  },
+  "homepage": "https://github.com/danestves/react-markdown#readme",
   "devDependencies": {
-    "jest": "20.0.4",
-    "react": "15.6.1",
-    "react-test-renderer": "15.6.1"
+    "jest": "^24.5.0",
+    "react": "^16.8.5",
+    "react-test-renderer": "^16.8.5"
   },
   "peerDependencies": {
-    "prop-types": "^15.5.10",
-    "react": "^15.0.0"
+    "prop-types": "^15.7.2",
+    "react": "^16.8.5"
   }
 }

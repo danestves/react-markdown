@@ -1,29 +1,35 @@
 # react-markdown
-React component to parse and render Platzi Flavored Markdown content
 
-This component made use of [@platzi/markdown](https://github.com/PlatziDev/markdown) to render a content using markdown in a React application.
+React component to parse and render Flavored Markdown content
+
+This component made use of [@danestves/markdown](https://github.com/danestves/markdown) to render a content using markdown in a React application.
 
 ## Usage
+
 Install it with:
 
 ```bash
-npm i -S react @platzi/react-markdown
+npm i -S @danestves/react-markdown
+
+yarn add @danestves/react-markdown
 ```
 
 Import it with:
 
 ```js
 import React from 'react';
-import Markdown from '@platzi/react-markdown';
+import Markdown from '@danestves/react-markdown';
 
 function App() {
   return (
     <Markdown
-      tagName="div"
-      content="**Hello Platzi!**"
-      parser={{
-        // @platzi/markdown options
-      }}
+      tagName='div'
+      content='**Hello World in Bold!**'
+      parser={
+        {
+          // @danestves/markdown options
+        }
+      }
     />
   );
 }
@@ -35,6 +41,7 @@ function App() {
 - The `content` is required.
 
 ## Run test
+
 You have 4 ways to run tests.
 
 - `npm t`: run the test once
