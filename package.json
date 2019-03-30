@@ -1,6 +1,6 @@
 {
   "name": "@danestves/react-markdown",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "React component to parse and render Flavored Markdown content",
   "main": "index.js",
   "scripts": {
@@ -45,6 +45,6 @@
     "react": "^16.8.5"
   },
   "dependencies": {
-    "@danestves/markdown": "^1.0.4"
+    "@danestves/markdown": "^1.0.5"
   }
 }
